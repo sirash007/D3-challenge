@@ -85,7 +85,7 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
   if (chosenYAxis === "obesity") {
     var label2 = "Obese (%) ";
   }
-  else if (chosenXAxis === "healthcare") {
+  else if (chosenYAxis === "healthcare") {
     var label2 = "Lacks Healthcare (%) ";
   }
   else {
